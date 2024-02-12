@@ -21,7 +21,6 @@ a {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
-    font-weight: bolder;
 }
 
 .right-links a {
@@ -31,4 +30,39 @@ a {
 .right-links ul {
     display: flex;
     gap: 20px;
+}
+
+.hero {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.hero img {
+    width: 600px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.hero-sub {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    padding: 1% 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: bold;
+    border: none;
 }
