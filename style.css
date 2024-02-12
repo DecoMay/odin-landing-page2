@@ -62,9 +62,9 @@ a {
     color: #e5e7eb;
 }
 
-.hero-button {
+.signup-button {
     background-color: #3882f6;
-    padding: 1% 20px;
+    padding: 10px 20px;
     border-radius: 10px;
     font-size: 18px;
     color: #e5e7eb;
@@ -116,4 +116,34 @@ a {
     font-size: 30px;
     font-weight: bolder;
     text-align: end;
+}
+
+.cta {
+    background-color: #f9faf8;
+    padding: 100px 20%;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-main {
+    font-size: 36px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.cta-sub {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.cta-box .signup-button {
+    border: 2px solid white;
 }
